@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-circular-references: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/axon
+    username: tasks
+    password: mysecretpassword
+  jpa:
+    hibernate:
+      ddl-auto: update
+axon:
+  axonserver:
+    token: 00000000-0000-0000-0000-000000000000
+
